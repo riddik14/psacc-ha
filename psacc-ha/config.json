@@ -8,7 +8,7 @@
     "armhf",
     "aarch64"
   ],
-  "url": "https://github.com/riddik14/psa_car_controller",
+  "url": "https://github.com/flobz/psa_car_controller",
   "startup": "application",
   "boot": "auto",
   "ports_description": {"5000/tcp": "Web interface"},
@@ -20,5 +20,5 @@
   "ingress": true,
   "ingress_port": 5000,
   "panel_icon": "mdi:car",
-  "environment": {"PSACC_PORT": "5000", "PSACC_CONFIG_DIR": "/data"}
+  "environment": {"PSACC_PORT": "5000", "PSACC_CONFIG_DIR": "/data --remote-disable"}
 }
